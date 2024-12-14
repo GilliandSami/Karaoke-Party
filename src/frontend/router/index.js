@@ -1,15 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router';
+import ClientView from '../views/ClientView.vue';
 
 const routes = [
     {
-        // path: '/',
-        // name: 'Client',
-        // component: () => import('../views/ClientView.vue'),
-    },
-    {
-        // path: '/admin',
-        // name: 'Admin',
-        // component: () => import('../views/AdminView.vue'),
+        path: '/',
+        name: 'Client',
+        component: ClientView,
     },
 ];
 
